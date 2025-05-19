@@ -8,7 +8,7 @@ export const ExampleWithArray = () => {
     const addElement = () => {
         setNames([...names, ref!.current!.value]);
         ref!.current!.value = '';
-        ref!.current!.focus();  
+        ref!.current!.focus(); 
     }
     
     return (<>

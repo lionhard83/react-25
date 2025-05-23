@@ -1,6 +1,7 @@
 // import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { ExampleUseContext } from './ExampleUseContext.tsx'
+import { ExampleWithReduxCart } from './ExampleWithReduxCart.tsx'
+
 
 
 // import './index.css'
@@ -8,4 +9,4 @@ import { ExampleUseContext } from './ExampleUseContext.tsx'
 
 // import App from './App.tsx'
 
-createRoot(document.getElementById('root')!).render(<ExampleUseContext />)
+createRoot(document.getElementById('root')!).render(<ExampleWithReduxCart />)

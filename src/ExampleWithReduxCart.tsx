@@ -58,10 +58,7 @@ const ProductList = () => {
 
 
 const CartList = () => {
-
     const cart = useSelector((state: State) => state.cart.value);
-
-
     return (<>
         <p>{cart.totalPrice}</p>
         <ul>
